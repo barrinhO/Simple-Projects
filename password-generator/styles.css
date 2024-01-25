@@ -1,0 +1,84 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #fff;
+}
+
+h4 {
+  color: #5888db;
+}
+
+.container-input {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.range {
+  width: 80%;
+}
+
+#valor {
+  font-weight: bold;
+  margin-left: 5px;
+  color: #37ff00;
+}
+
+.button-ger {
+  background-color: #15910a;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: transform 0.5s;
+}
+
+.button-ger:hover {
+  background-color: #10b642;
+  transform: scale(1.1);
+}
+
+#password-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.password {
+  font-size: 24px;
+  color: #27ae60;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.password:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 10px;
+  display: block;
+}
